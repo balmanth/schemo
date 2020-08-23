@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source\sources">
+      <UniqueIdentifier>{39353812-4dc9-4c40-afaf-bb8bf2de19d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns">
+      <UniqueIdentifier>{5a1d8f52-fe12-43f2-9133-e165556f5bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns\units">
+      <UniqueIdentifier>{26d5bd11-5822-478f-a404-ac5ea5d9c9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns\flows">
+      <UniqueIdentifier>{45f4b4c0-28e8-4576-a2dd-b2b3eefe3967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns\outputs">
+      <UniqueIdentifier>{9048a4b0-8428-4721-ab98-7ac216ad9187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\core">
+      <UniqueIdentifier>{922e0f23-d6ab-4827-8f24-c70a41babc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns\symbols">
+      <UniqueIdentifier>{9cbb0f8e-0387-4e0b-b1ea-b80ef867af32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns\nodes">
+      <UniqueIdentifier>{de2e488b-a575-41f4-a3ff-297ccd2abe38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\patterns\scopes">
+      <UniqueIdentifier>{4843cffc-1daf-48ed-8cb6-bdfd12cd8887}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\patterns\units\any.cpp">
+      <Filter>source\patterns\units</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\units\range.cpp">
+      <Filter>source\patterns\units</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\repeat.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\negate.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\try.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\expect.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\choose.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\condition.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\units\choose.cpp">
+      <Filter>source\patterns\units</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\end.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\static.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sources\text.cpp">
+      <Filter>source\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sources\tokens.cpp">
+      <Filter>source\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\token.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\error.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\units\expect.cpp">
+      <Filter>source\patterns\units</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\symbol.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\flag.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\code.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\symbols\flag.cpp">
+      <Filter>source\patterns\symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\nodes\pivot.cpp">
+      <Filter>source\patterns\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\nodes\replace.cpp">
+      <Filter>source\patterns\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\flags.cpp">
+      <Filter>source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\record.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\symbols\record.cpp">
+      <Filter>source\patterns\symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\optional.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\outputs\router.cpp">
+      <Filter>source\patterns\outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\units\router.cpp">
+      <Filter>source\patterns\units</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\flows\router.cpp">
+      <Filter>source\patterns\flows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\symbols\router.cpp">
+      <Filter>source\patterns\symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\code.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\flag.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\record.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\router.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\state.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\node.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\scopes\symbol.cpp">
+      <Filter>source\patterns\scopes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\symbols\node.cpp">
+      <Filter>source\patterns\symbols</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patterns\nodes\connect.cpp">
+      <Filter>source\patterns\nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

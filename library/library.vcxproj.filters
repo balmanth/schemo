@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="header\sources">
+      <UniqueIdentifier>{c9b0fe28-7dbb-4a79-9cc0-960ccc57aac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\interfaces">
+      <UniqueIdentifier>{cb852e5b-20ac-4c4d-bb73-8a922c8656c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\core">
+      <UniqueIdentifier>{d055b217-7190-4af7-ab58-173bc3d88b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns">
+      <UniqueIdentifier>{eabd9aa5-792b-44bc-9953-6a179209c48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\units">
+      <UniqueIdentifier>{224277c9-f4ec-4e51-bb56-1935d9c70c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\flows">
+      <UniqueIdentifier>{5105bb3b-bf45-47ed-ab15-f1c2763281fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\outputs">
+      <UniqueIdentifier>{b1554524-805e-4fa7-86f1-0b16e78c98fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\nodes">
+      <UniqueIdentifier>{7fe36159-2fad-4a2c-abc5-277e9f7390f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\symbols">
+      <UniqueIdentifier>{21183864-fdd6-4996-a412-aed23512bb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\flows\routes">
+      <UniqueIdentifier>{a4c59582-8798-4872-946c-3b111b388aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\units\routes">
+      <UniqueIdentifier>{c60b6051-78be-4999-846a-7ace5fc468cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\outputs\routes">
+      <UniqueIdentifier>{4000c681-3d33-4f64-8c5d-b2a00f8bdd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\symbols\routes">
+      <UniqueIdentifier>{f420f3ca-58c8-459b-aaa8-be17a4d0743f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\scopes">
+      <UniqueIdentifier>{0f8e8445-7d7a-4e11-9524-afdf8286f849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\patterns\scopes\routes">
+      <UniqueIdentifier>{5128b49a-2e17-4ddb-a22a-f82665d3468a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\sources\types.hpp">
+      <Filter>header\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\source.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\sources.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\types.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\token.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\fragment.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\interfaces\pattern.hpp">
+      <Filter>header\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\types.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\units.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\units\any.hpp">
+      <Filter>header\patterns\units</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\units\range.hpp">
+      <Filter>header\patterns\units</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\repeat.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\negate.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\choose.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\expect.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\condition.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\units\choose.hpp">
+      <Filter>header\patterns\units</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\units\expect.hpp">
+      <Filter>header\patterns\units</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\error.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\sources\text.hpp">
+      <Filter>header\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="header\sources\tokens.hpp">
+      <Filter>header\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\end.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\static.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\token.hpp">
+      <Filter>header\patterns\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\error.hpp">
+      <Filter>header\patterns\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="header\sources\base.hpp">
+      <Filter>header\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\symbol.hpp">
+      <Filter>header\patterns\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\flag.hpp">
+      <Filter>header\patterns\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\output.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\code.hpp">
+      <Filter>header\patterns\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\location.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\symbol.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\node.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\nodes\pivot.hpp">
+      <Filter>header\patterns\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\nodes\replace.hpp">
+      <Filter>header\patterns\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\nodes.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols\flag.hpp">
+      <Filter>header\patterns\symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\identifier.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\context.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\flags.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\record.hpp">
+      <Filter>header\patterns\outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols\record.hpp">
+      <Filter>header\patterns\symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\optional.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\router.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\routes\basic.hpp">
+      <Filter>header\patterns\flows\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\units\routes\basic.hpp">
+      <Filter>header\patterns\units\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\routes\code.hpp">
+      <Filter>header\patterns\outputs\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\routes\flag.hpp">
+      <Filter>header\patterns\outputs\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\routes\record.hpp">
+      <Filter>header\patterns\outputs\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\routes\token.hpp">
+      <Filter>header\patterns\outputs\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\routes\error.hpp">
+      <Filter>header\patterns\outputs\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols\routes\flag.hpp">
+      <Filter>header\patterns\symbols\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols\routes\record.hpp">
+      <Filter>header\patterns\symbols\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\direction.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\core\table.hpp">
+      <Filter>header\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\state.hpp">
+      <Filter>header\patterns\scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\flows\try.hpp">
+      <Filter>header\patterns\flows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\record.hpp">
+      <Filter>header\patterns\scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\code.hpp">
+      <Filter>header\patterns\scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\flag.hpp">
+      <Filter>header\patterns\scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\routes\record.hpp">
+      <Filter>header\patterns\scopes\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\routes\code.hpp">
+      <Filter>header\patterns\scopes\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\routes\flag.hpp">
+      <Filter>header\patterns\scopes\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes.hpp">
+      <Filter>header\patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\routes\state.hpp">
+      <Filter>header\patterns\scopes\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\node.hpp">
+      <Filter>header\patterns\scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\routes\node.hpp">
+      <Filter>header\patterns\scopes\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols\node.hpp">
+      <Filter>header\patterns\symbols</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\symbols\routes\node.hpp">
+      <Filter>header\patterns\symbols\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\symbol.hpp">
+      <Filter>header\patterns\scopes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\scopes\routes\symbol.hpp">
+      <Filter>header\patterns\scopes\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\outputs\routes\symbol.hpp">
+      <Filter>header\patterns\outputs\routes</Filter>
+    </ClInclude>
+    <ClInclude Include="header\patterns\nodes\connect.hpp">
+      <Filter>header\patterns\nodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
